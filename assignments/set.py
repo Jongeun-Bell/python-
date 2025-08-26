@@ -27,3 +27,13 @@ def reply_common_interest(u1,u2):
 print(reply_common_interest("Eve","Charlie")) # 공통 관심사 1개 
 print(reply_common_interest("Alice","Grace")) # 공통 관심사 2개 
 print(reply_common_interest("Frank","Grace")) # 공통 관심사 없음 
+
+
+
+
+
+
+
+
+
+
