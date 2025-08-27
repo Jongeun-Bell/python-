@@ -5,10 +5,10 @@
 # - Library: 도서관 전반(재고/회원/검색/대출/반납/삭제/조회) 조정자 (SRP)
 #
 # [적용한 SOLID 원칙]
-# - SRP(단일 책임 원칙): 각 클래스가 '자기 일'만 함.
-#   * Book은 책 정보만, Member는 회원/대출목록만, Library는 조정/관리만.
+# - SRP(단일 책임 원칙): 각 클래스가 '자기 일'만 함
+#   * Book은 책 정보만, Member는 회원/대출목록만, Library는 조정/관리만
 # - OCP(개방-폐쇄 원칙): 검색 기준(제목/저자/ISBN)을 메서드로 분리 →
-#   나중에 새로운 검색(출판연도 범위 등) 추가 시 기존 코드 최소 수정.
+#   나중에 새로운 검색(출판연도 범위 등) 추가 시 기존 코드 최소 수정
 #
 # [캡슐화(Encapsulation) 포인트]
 # - Member의 대출 목록은 Member의 메서드로만 변경(외부 직접 append/remove 금지).
@@ -28,8 +28,8 @@ class Book:
         self.isbn = isbn
         self.publish_year = publish_year
 
-    # __str__: print(book) 시 사람이 읽기 좋은 형태로 보이게 하는 메서드.
-    # 없으면 <Book object at 0x...> 같은 주소가 찍혀서 가독성이 안 좋다.
+    # __str__: print(book) 시 사람이 읽기 좋은 형태로 보이게 하는 메서드
+    # 없으면 <Book object at 0x...> 같은 주소가 찍혀서 가독성이 안 좋다
     def __str__(self):
         return f"[{self.isbn}] {self.title} / 작가: {self.author} / ({self.publish_year}) 출판"
 
