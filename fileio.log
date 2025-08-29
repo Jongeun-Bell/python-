@@ -1,0 +1,8 @@
+2025-08-28 17:24:07,275 INFO __main__:65 - writing text file: demo/sample.txt
+2025-08-28 17:24:07,275 INFO __main__:84 - Writing JSON file: demo/sample.json
+2025-08-28 17:24:07,276 INFO __main__:107 - Writing CSV file: demo/sample.csv
+2025-08-28 17:24:07,276 INFO __main__:125 - Writing binary file: demo/sample.bin
+2025-08-28 17:24:07,276 INFO __main__:60 - reading text file: demo/sample.txt
+2025-08-28 17:24:07,276 INFO __main__:74 - reading json file: demo/sample.json
+2025-08-28 17:24:07,276 INFO __main__:97 - reading csv file: demo/sample.csv
+2025-08-28 17:24:07,276 INFO __main__:120 - Reading binary file: demo/sample.bin
